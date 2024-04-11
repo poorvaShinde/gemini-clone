@@ -27,15 +27,15 @@ function Sidebar() {
             </div> : null}
         </div>
         <div className="flex flex-col">
-            <div className="flex items-start gap-[10px] pr-[40px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
+            <div className="flex items-start gap-[10px] pr-[20px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
             <img className='w-[20px] ' src={assets.question_icon} alt="" />
                 {show ? <p>Help</p> : null}
             </div>
-            <div className="flex items-start gap-[10px] pr-[40px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
+            <div className="flex items-start gap-[10px] pr-[20px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
             <img className='w-[20px]' src={assets.history_icon} alt="" />
                 {show ? <p>Activity</p> : null}
             </div>
-            <div className="flex items-start gap-[10px] pr-[40px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
+            <div className="flex items-start gap-[10px] pr-[20px] p-[10px] rounded-[50px] text-[#282828] cursor-pointer hover:bg-[#e2e6eb] overflow-hidden">
             <img className='w-[20px]' src={assets.setting_icon} alt="" />
                 {show ? <p>settings</p> : null}
             </div>
